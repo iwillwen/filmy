@@ -1,0 +1,136 @@
+{
+  "_default": "en",
+
+  "back": {
+    "en": "Back",
+    "zh": "返回"
+  },
+  "home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "category": {
+    "en": "Category",
+    "zh": "分类"
+  },
+  "album": {
+    "en": "Album",
+    "zh": "相册"
+  },
+  "apply": {
+    "en": "Apply",
+    "zh": "初始化"
+  },
+  "admin password": {
+    "en": "Admin Password",
+    "zh": "管理密码"
+  },
+  "setting": {
+    "en": "Setting",
+    "zh": "设置"
+  },
+  "search": {
+    "en": "Search",
+    "zh": "搜索"
+  },
+  "title": {
+    "en": "Title",
+    "zh": "标题"
+  },
+  "subtitle": {
+    "en": "Subtitle",
+    "zh": "副标题"
+  },
+  "background image": {
+    "en": "Backrgound Image",
+    "zh": "背景图"
+  },
+  "upload file": {
+    "en": "Upload File",
+    "zh": "上传文件"
+  },
+  "reset": {
+    "en": "Reset",
+    "zh": "重置"
+  },
+  "finish": {
+    "en": "Finish",
+    "zh": "完成"
+  },
+  "working": {
+    "en": "Working",
+    "zh": "进行中"
+  },
+  "dashboard": {
+    "en": "Dashboard",
+    "zh": "总览"
+  },
+  "number of categories": {
+    "en": "Number of categories",
+    "zh": "分类数量"
+  },
+  "number of albums": {
+    "en": "Number of albums",
+    "zh": "相册数量"
+  },
+  "number of photos": {
+    "en": "Number of photos",
+    "zh": "照片总数"
+  },
+  "rates of categories": {
+    "en": "Rates of categories",
+    "zh": "分类占比"
+  },
+  "input password": {
+    "en": "Please input your admin password",
+    "zh": "请输入您的管理密码"
+  },
+  "update succeed": {
+    "en": "Update succeed",
+    "zh": "更新成功"
+  },
+  "something went wrong": {
+    "en": "Something went wrong",
+    "zh": "出错"
+  },
+  "new": {
+    "en": "New",
+    "zh": "新增"
+  },
+  "delete": {
+    "en": "Delete",
+    "zh": "删除"
+  },
+  "name": {
+    "en": "Name",
+    "zh": "名称"
+  },
+  "cover": {
+    "en": "Cover",
+    "zh": "封面"
+  },
+  "are you sure": {
+    "en": "Are you sure?",
+    "zh": "你确定要这么做？"
+  },
+  "go to home page": {
+    "en": "Go to the home page",
+    "zh": "前往首页"
+  },
+  "all": {
+    "en": "All",
+    "zh": "全部"
+  },
+  "text content": {
+    "en": "Text content",
+    "zh": "文本内容"
+  },
+  "password wrong": {
+    "en": "Password is not correct",
+    "zh": "密码不正确"
+  },
+  "welcome back": {
+    "en": "Welcome back",
+    "zh": "欢迎回来"
+  }
+}

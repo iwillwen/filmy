@@ -1,0 +1,42 @@
+{
+  "name": "white-film",
+  "version": "0.0.1",
+  "description": "Simple Photography show platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iwillwen",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "bootstrap.native": "^1.0.2",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "json-loader": "^0.5.4",
+    "lazysizes": "^2.0.0",
+    "lodash": "^4.12.0",
+    "materialize-css": "^0.97.6",
+    "min": "^0.1.15",
+    "min-model": "^0.1.11",
+    "qiniu.js": "^0.1.1",
+    "rollup-plugin-json": "^2.0.0",
+    "rollup-plugin-uglify": "^0.3.1",
+    "rollup-plugin-vue": "^2.0.0",
+    "sweetalert": "^1.1.3",
+    "url-loader": "^0.5.7",
+    "vue": "^1.0.24",
+    "vue-animated-list": "^1.0.2",
+    "vue-html-loader": "^1.2.2",
+    "vue-loader": "^8.3.1",
+    "vue-router": "^0.7.13",
+    "vue-style-loader": "^1.0.0",
+    "vue-touch": "^1.1.0",
+    "watchman-router": "^1.0.4",
+    "webpack": "^1.13.0",
+    "whatwg-fetch": "^0.11.1"
+  }
+}
