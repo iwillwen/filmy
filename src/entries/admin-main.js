@@ -5,6 +5,7 @@ import 'sweetalert'
 
 Vue.filter('i18n', i18n)
 
+// Promisify sweetalert
 const swalp = (...args) => {
   return new Promise(resolve => {
     swal(...args, (...argv) => resolve(...argv))
@@ -13,6 +14,7 @@ const swalp = (...args) => {
 
 import Admin from '../components/admin/Admin.vue'
 
+// Routes
 import DashboardRoute from '../router-components/admin/Dashboard.vue'
 import SettingsRoute from '../router-components/admin/Settings.vue'
 import CategoriesRoute from '../router-components/admin/Categories.vue'
@@ -20,8 +22,10 @@ import CategoryRoute from '../router-components/admin/Category.vue'
 import AlbumsRoute from '../router-components/admin/Albums.vue'
 import AlbumRoute from '../router-components/admin/Album.vue'
 
+// Qiniu Cloud Storage Bucket Instance
 import filmyBucket from '../models/qiniu-bucket'
 
+// Routing the router
 Vue.use(VueRouter)
 
 const router = new VueRouter()
@@ -66,6 +70,7 @@ router.map({
   }
 })
 
+// Confirm the admin password
 swalp({
   title: i18n('input password'),
   type: 'input',
@@ -75,6 +80,7 @@ swalp({
   animation: "slide-from-top",
   showLoaderOnConfirm: true
 })
+  // Check the password
   .then(password => filmyBucket.fetchPutToken(password))
   .then(() => {
     swal({

@@ -2,7 +2,7 @@
   <div id="category-albums">
     <div v-if="albums.length > 0" class="album" v-for="album in albums" v-link="{ path: `/album/${album._key}` }">
       <div class="album-image">
-        <img class="lazyload" :data-src="album.photos[0]">
+        <img class="lazyload" :data-src="album.photos[0] | thumbnail">
         <span class="album-title">{{album.title}}</span>
       </div>
     </div>
@@ -16,7 +16,13 @@
   import 'lazysizes/lazysizes.min'
 
   export default {
-    props: [ 'albums' ]
+    props: [ 'albums' ],
+
+    filters: {
+      thumbnail(photo) {
+        return `${photo}?imageMogr2/thumbnail/!500x500r`
+      }
+    }
   }
 </script>
 

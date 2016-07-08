@@ -12,6 +12,7 @@
 
     data() {
       return {
+        // Search Bar Toggle Style
         active: this.static ? true : false
       }
     },
@@ -23,6 +24,7 @@
         if (!this.active) {
           this.active = true 
         } else {
+          // Use Vue-Router to redirect the request
           this.router.go({
             path: `/search/${encodeURIComponent(this.query)}`,
             query: this.options || {}

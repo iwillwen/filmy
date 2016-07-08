@@ -10,12 +10,11 @@
 </template>
 
 <script>
-  import SearchBar from './SearchBar.vue'
-
   export default {
     props: [ 'config' ],
 
     computed: {
+      // Background Image
       backgroundStyle() {
         return { backgroundImage: `url('${this.config.background}')` }
       }

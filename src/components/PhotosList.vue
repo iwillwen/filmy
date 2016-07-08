@@ -1,6 +1,6 @@
 <template>
   <section id="album-photos">
-    <img v-for="photo in photos" :data-src="photo" alt="" class="album-photo lazyload">
+    <img v-for="photo in Photos" :data-src="photo" alt="" class="album-photo lazyload">
   </section>
 </template>
 
@@ -8,7 +8,13 @@
   import 'lazysizes/lazysizes.min'
 
   export default {
-    props: [ 'photos' ]
+    props: [ 'photos' ],
+
+    computed: {
+      Photos() {
+        return (this.photos || []).map(photo => `${photo}?imageMogr2/thumbnail/!1000x1000r`)
+      }
+    }
   }
 </script>
 

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- Router View -->
     <router-view transition="fade" transition-mode="out-in"></router-view>
     <filmy-footer></filmy-footer>
   </div>
@@ -12,7 +13,8 @@
 
     data() {
       return {
-        blogTitle: 'White Filmy'
+        // Default document title
+        blogTitle: 'Filmy'
       }
     },
 
@@ -21,6 +23,7 @@
     },
 
     ready() {
+      // Using events to update title
       this
         .$on('update-title', title => {
           if (title !== '') {
